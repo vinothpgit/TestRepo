@@ -1,0 +1,23 @@
+.game-canvas {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.score-board {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
